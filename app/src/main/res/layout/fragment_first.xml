@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+    <ImageView
+        android:id="@+id/background_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/aaaaa" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Talk Me Down"
+        android:textSize="46sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:gravity="bottom"
+        android:paddingBottom="80sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Blue Neighborhood"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:fontFamily="cursive"
+        android:gravity="bottom"
+        android:paddingBottom="50sp"/>
+
+</FrameLayout>
